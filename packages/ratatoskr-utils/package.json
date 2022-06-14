@@ -1,5 +1,5 @@
 {
-  "name": "@rataoskr-ui/utils",
+  "name": "@ratatoskr-ui/utils",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
