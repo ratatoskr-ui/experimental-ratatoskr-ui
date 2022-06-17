@@ -3,7 +3,7 @@ import { Story } from '@storybook/react';
 
 import ButtonAnchor, { ButtonAnchorProps } from './ButtonAnchor';
 
-export default {
+const Title = {
   title: 'Core/Components/Button/ButtonAnchor',
   component: ButtonAnchor,
   argTypes: {
@@ -68,3 +68,6 @@ WithIcon.args = {
   icon: undefined,
   iconPosition: 'left',
 };
+
+
+export default Title;
