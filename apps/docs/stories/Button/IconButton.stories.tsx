@@ -1,9 +1,9 @@
 import { Story } from '@storybook/react';
 import * as React from 'react';
 
-import IconButton, { IconButtonProps } from './IconButton';
+import { IconButtonProps, IconButton } from '@ratatoskr-ui/core/src/components/button/components/IconButton';
 
-export default {
+const Title = {
   title: 'Core/Components/Button/IconButton',
   component: IconButton,
   argTypes: {
@@ -49,3 +49,5 @@ Example.args = {
   variant: 'primary',
   size: 'md',
 };
+
+export default Title;

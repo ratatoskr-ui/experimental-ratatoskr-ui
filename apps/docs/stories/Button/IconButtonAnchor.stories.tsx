@@ -1,9 +1,9 @@
 import { Story } from '@storybook/react';
 import * as React from 'react';
 
-import IconButtonAnchor, { IconButtonAnchorProps } from './IconButtonAnchor';
+import { IconButtonAnchorProps, IconButtonAnchor } from '@ratatoskr-ui/core/src/components/button/components/IconButton';
 
-export default {
+const Title = {
   title: 'Core/Components/Button/IconButtonAnchor',
   component: IconButtonAnchor,
   argTypes: {
@@ -43,3 +43,5 @@ Example.args = {
   href: 'https://www.youtube.com/watch?v=fdixQDPA2h0',
   target: '_blank',
 };
+
+export default Title;

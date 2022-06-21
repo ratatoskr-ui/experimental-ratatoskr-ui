@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Story } from '@storybook/react';
 
-import ButtonAnchor, { ButtonAnchorProps } from './ButtonAnchor';
+import ButtonAnchor, { ButtonAnchorProps } from '@ratatoskr-ui/core/src/components/button/components/Button/ButtonAnchor';
 
 const Title = {
   title: 'Core/Components/Button/ButtonAnchor',
