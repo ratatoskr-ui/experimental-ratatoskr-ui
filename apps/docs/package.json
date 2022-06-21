@@ -1,6 +1,6 @@
 {
   "name": "@ratatoskr-ui/docs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "start-storybook -p 6006",
