@@ -7,4 +7,4 @@
 "@ratatoskr-ui/utils": major
 ---
 
-release all of the lib
+release all lib
