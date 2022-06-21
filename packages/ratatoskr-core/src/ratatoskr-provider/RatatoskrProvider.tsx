@@ -3,14 +3,14 @@ import { IdProvider } from "@radix-ui/react-id";
 import { ThemeProvider } from "styled-components";
 
 import { theme as defaultTheme, Theme } from "../theme";
-import injectGlobalStyles from "./injectGlobalStyles";
+import injectGlobalStyles from "./injectGlobalStyles"; 
 
-export interface AksaraProviderProps {
+
+export interface RatatoskrProviderProps {
   /**
    * If you want to extend the global styles set to `true` and inject them
    * manually via `injectGlobalStyles`.
    */
-  disableInjection?: boolean;
   /** Custom theme object. */
   theme?: Theme;
   children?: React.ReactNode
@@ -18,21 +18,24 @@ export interface AksaraProviderProps {
 
 const { GlobalStyles } = injectGlobalStyles();
 
-const AksaraProvider: React.FC<AksaraProviderProps> = ({
+
+const RatatoskrProvider: React.FC<RatatoskrProviderProps> = ({
   children,
-  disableInjection,
   theme = defaultTheme,
 }) => {
   return (
+    <>
+    {/* {!disableInjection && <GlobalStyles />} */}
     <ThemeProvider theme={theme}>
       <IdProvider>
-        {!disableInjection && <GlobalStyles />}
+        <GlobalStyles />
         {children}
       </IdProvider>
     </ThemeProvider>
+    </>
   );
 };
 
-AksaraProvider.displayName = "AksaraProvider";
+RatatoskrProvider.displayName = "RatatoskrProvider";
 
-export default AksaraProvider;
+export default RatatoskrProvider;

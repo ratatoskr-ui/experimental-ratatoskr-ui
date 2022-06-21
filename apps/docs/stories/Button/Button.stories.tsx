@@ -11,6 +11,7 @@ const Title = {
     },
     size: {
       options: ['sm', 'md', 'lg'],
+      control: 'radio'
     },
     block: {
       control: 'boolean',

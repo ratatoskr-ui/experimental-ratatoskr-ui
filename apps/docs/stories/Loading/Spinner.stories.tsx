@@ -20,9 +20,7 @@ const Title = {
 const Template: Story<SpinnerProps> = ({ size, label }) => {
   return (
     <Stack direction="horizontal" spacing="lg">
-      <Spinner size={size} spinnerColor="blue07" label={label} />
-      <Spinner size={size} spinnerColor="greylight01" label={label} />
-      <Spinner size={size} spinnerColor="greylight05" label={label} />
+      <Spinner size={size} label={label} />
     </Stack>
   );
 };

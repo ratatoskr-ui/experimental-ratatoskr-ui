@@ -1,5 +1,5 @@
 import { useTheme as defaultUseTheme } from "styled-components";
-import { foundations } from "@ratatoskr-ui/tokens";
+import {foundations} from "@ratatoskr-ui/tokens/src/index";
 import componentStyles from "./component-styles";
 
 export const theme = {
