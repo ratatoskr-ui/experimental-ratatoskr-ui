@@ -3,7 +3,7 @@ const system =
 
 const fonts = {
   system,
-  brand: `'Inter', ${system}`,
+  brand: `'Arial', ${system}`,
   monospace: "'SF Mono', Inconsolata, Menlo, Monaco, Consolas, 'Courier New', Courier, monospace;",
 };
 

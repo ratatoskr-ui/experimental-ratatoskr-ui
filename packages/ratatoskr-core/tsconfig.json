@@ -1,5 +1,5 @@
 {
   "extends": "@ratatoskr-ui/tsconfig/react-library.json",
-  "include": ["."],
+  "include": [".", "../../apps/docs/stories/Button/ButtonAnchor.stories.tsx", "../../apps/docs/stories/Loading/Spinner.stories.tsx", "../../apps/docs/stories/Button/PlainButtonAnchor.stories.tsx", "../../apps/docs/stories/Button/PlainButton.stories.tsx", "../../apps/docs/stories/Button/Button.stories.tsx"],
   "exclude": ["dist", "build", "node_modules"]
 }
